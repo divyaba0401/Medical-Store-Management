@@ -108,14 +108,34 @@ Available operations:
 python "Medical Store Management.py"
 6. Follow the menu options displayed on the screen.
 
-Project Structure
-Medical-Store-Management/
-│
-├── Medical Store Management.py
-└── README.md
-How the System Works
+## Project Structure
 
-The program starts with a main menu containing different modules of the medical store. Users can select a module and perform the available operations. The information entered during program execution is stored using Python lists and dictionaries.
+```text
+Medical-Store-Management/
+├── medical_store_management.py
+├── README.md
+├── TESTING.md
+├── requirements.txt
+├── Project_Report.docx
+├── Project_Statement.pdf
+├── Flowchart.png
+└── screenshots/
+```
+
+## How the System Works
+
+The Medical Store Management System is a menu-driven Python application designed to manage basic medical store operations.
+
+The system is divided into six main modules:
+
+1. **Medicines:** View and add medicine records.
+2. **Suppliers:** View, add, search, update, and delete supplier records.
+3. **Sales:** View, create, and search sales records.
+4. **Categories:** View, add, and delete medicine categories.
+5. **Supplier Orders:** View, create, and search supplier orders.
+6. **Exit:** Close the application.
+
+The program uses Python data structures to store and manage records during execution. Data is stored in memory and is not permanently saved after the program closes.
 
 Future Improvements
 MySQL or SQLite database integration
