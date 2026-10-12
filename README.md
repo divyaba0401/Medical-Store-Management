@@ -103,9 +103,13 @@ Available operations:
 1. Install Python on your computer.
 2. Clone or download this repository.
 3. Open the project folder in VS Code or any Python-supported IDE.
-4. Open the Python file.
-5. Run the program.
-python "Medical Store Management.py"
+4. Open the `medical_store_management.py` file.
+5. Run the program using the following command:
+
+   ```bash
+   python medical_store_management.py
+   ```
+
 6. Follow the menu options displayed on the screen.
 
 ## Project Structure
