@@ -1,0 +1,41 @@
+# PROJECT STATEMENT
+
+## Problem Statement
+
+Medical stores handle various operations, including maintaining medicine records, managing supplier information, recording sales, organizing medicine categories, and maintaining supplier orders. Managing these records manually can make information difficult to organize and retrieve.
+
+This project aims to develop a Python-based Medical Store Management System that organizes these operations through a simple menu-driven interface. It provides separate modules for medicines, suppliers, sales, categories, and supplier orders.
+
+## Scope of the Project
+
+The Medical Store Management System focuses on the following areas:
+
+- **Medicine Management:** Adding and viewing medicine records containing medicine ID, medicine name, manufacturer, category, price, quantity, and expiry date.
+- **Supplier Management:** Adding, viewing, searching, updating, and deleting supplier records.
+- **Sales Management:** Recording, viewing, and searching sales records.
+- **Category Management:** Adding, viewing, and deleting medicine categories.
+- **Supplier Order Management:** Creating, viewing, and searching supplier orders.
+- **Record Organization:** Organizing different types of records into separate modules.
+- **Menu Navigation:** Allowing users to select the required module and perform its available operations.
+
+## Target Users
+
+- **Medical Store Owners:** To organize basic medical store records.
+- **Pharmacists:** To access and maintain medicine-related information.
+- **Store Employees:** To enter and retrieve supplier, sales, and order records.
+- **Store Administrators:** To manage the different categories of store information.
+- **Students:** To understand how Python programming concepts can be applied to a practical management system.
+
+## High-Level Features
+
+- **Medicine Record Management:** Adding and viewing medicine information.
+- **Supplier Record Management:** Adding, viewing, searching, updating, and deleting supplier information.
+- **Sales Recording:** Recording and viewing sales transactions.
+- **Sales Search:** Searching for existing sales records.
+- **Category Management:** Adding, viewing, and deleting medicine categories.
+- **Supplier Order Management:** Creating, viewing, and searching supplier orders.
+- **Menu-Driven Interface:** Providing a main menu with separate modules for different operations.
+- **Structured Data Storage:** Using Python lists and dictionaries to store and organize records during program execution.
+- **Operation Feedback:** Displaying messages for completed operations and invalid menu choices.
+
+**Note:** The current version stores records temporarily in memory. It does not provide permanent database storage or a graphical user interface.
