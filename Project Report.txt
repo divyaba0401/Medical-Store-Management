@@ -1,0 +1,421 @@
+# MEDICAL STORE MANAGEMENT SYSTEM
+
+## PROJECT REPORT
+
+Submitted By:
+Raol Divyaba Pruthvirajsinh
+
+Roll Number:
+26BAI10145
+
+Institution:
+VIT Bhopal University
+
+Academic Year:
+2026
+
+---
+
+# DECLARATION
+
+I hereby declare that the project titled **“Medical Store Management System”** is my academic project developed using Python. The project has been created for educational purposes to demonstrate programming concepts including lists, dictionaries, loops, conditional statements, input/output operations, and menu-driven programming.
+
+Name: Raol Divyaba Pruthvirajsinh
+Roll Number: 26BAI10145
+Date: 30th September, 2026
+
+---
+
+# ACKNOWLEDGEMENT
+
+I would like to express my sincere gratitude to my faculty members and institution for providing me with the opportunity to work on this project. This project helped me apply fundamental Python programming concepts to a practical real-world problem.
+
+I am also thankful to everyone who provided guidance and support during the development and testing of the Medical Store Management System.
+
+---
+
+# ABSTRACT
+
+The Medical Store Management System is a Python-based menu-driven application developed to organize common operations of a medical store. The system provides separate modules for medicines, suppliers, sales, categories, and supplier orders.
+
+Users can add and view medicine records, manage supplier information, record sales, maintain medicine categories, and create and search supplier orders. The system uses Python lists and dictionaries for storing information during program execution.
+
+The project demonstrates how fundamental programming concepts can be combined to create a practical application with multiple related modules and a simple command-line interface.
+
+---
+
+# 1. INTRODUCTION
+
+A medical store handles several types of information on a regular basis, including medicine details, supplier information, sales records, categories, and supplier orders. Managing such information manually can make it difficult to organize and retrieve records efficiently.
+
+The Medical Store Management System provides a simple computerized approach to these operations. It uses a menu-driven interface through which the user can select a required module and perform the available operations.
+
+The project focuses on applying basic Python programming concepts to a practical application while maintaining a simple and understandable interface.
+
+## 1.1 Problem Statement
+
+The project aims to develop a Python-based application that can organize basic medical store records and provide operations for adding, viewing, searching, updating, and deleting selected records.
+
+## 1.2 Need for the Project
+
+A structured application can make store-related information easier to manage during program execution. It also provides a practical way to apply programming concepts to a real-world scenario.
+
+---
+
+# 2. OBJECTIVES
+
+The main objectives of the project are:
+
+1. To develop a menu-driven medical store management application using Python.
+2. To organize medicine information in a structured format.
+3. To maintain supplier records and provide search, update, and delete operations.
+4. To record and view sales information.
+5. To manage medicine categories.
+6. To create, view, and search supplier orders.
+7. To apply Python lists, dictionaries, loops, and conditional statements in a practical project.
+8. To provide a simple and understandable command-line interface.
+
+---
+
+# 3. SCOPE OF THE PROJECT
+
+The current version focuses on basic record management during a single program session. It is designed as an educational project demonstrating Python programming and menu-driven logic.
+
+The system covers medicine records, supplier records, sales, categories, and supplier orders. The current implementation does not provide permanent database storage or a graphical user interface.
+
+---
+
+# 4. TECHNOLOGIES USED
+
+* Programming Language: Python
+* Data Structures: Lists and Dictionaries
+* Programming Concepts: Loops, Conditional Statements, Input/Output, Menu-Driven Programming
+* Development Environment: VS Code / Python-supported IDE
+* Interface: Command Line Interface (CLI)
+
+---
+
+# 5. SYSTEM REQUIREMENTS
+
+## 5.1 Hardware Requirements
+
+* Computer or laptop
+* Minimum 4 GB RAM recommended
+* Keyboard
+* Display
+
+## 5.2 Software Requirements
+
+* Python 3.x
+* Visual Studio Code or any Python-supported IDE
+* Windows, Linux, or macOS operating system
+
+---
+
+# 6. SYSTEM MODULES
+
+## 6.1 Medicines Module
+
+The Medicines module manages information related to medicines.
+
+The information stored includes:
+
+* Medicine ID
+* Medicine Name
+* Manufacturer
+* Category
+* Price
+* Quantity
+* Expiry Date
+
+Available operations:
+
+* View
+* Add
+* Back
+
+## 6.2 Suppliers Module
+
+The Suppliers module manages supplier information.
+
+The information stored includes:
+
+* Supplier ID
+* Supplier Name
+* Phone Number
+* Email
+
+Available operations:
+
+* View
+* Add
+* Search
+* Update
+* Delete
+* Back
+
+## 6.3 Sales Module
+
+The Sales module records information about medicine sales.
+
+The information stored includes:
+
+* Sale ID
+* Customer Name
+* Medicine
+* Quantity
+* Total Price
+* Sale Date
+
+Available operations:
+
+* View
+* Make Sale
+* Search
+* Back
+
+## 6.4 Categories Module
+
+The Categories module manages medicine categories.
+
+The information stored includes:
+
+* Category ID
+* Category Name
+
+Available operations:
+
+* View
+* Add
+* Delete
+* Back
+
+## 6.5 Supplier Orders Module
+
+The Supplier Orders module manages orders placed with suppliers.
+
+The information stored includes:
+
+* Order ID
+* Supplier ID
+* Order Date
+* Total Cost
+
+Available operations:
+
+* View
+* Create
+* Search
+* Back
+
+---
+
+# 7. SYSTEM DESIGN
+
+The application follows a hierarchical menu structure.
+
+Main Menu:
+
+1. Medicines
+2. Suppliers
+3. Sales
+4. Categories
+5. Supplier Orders
+6. Exit
+
+After selecting a module, the user is provided with the operations available for that module.
+
+## Data Storage Structure
+
+The program uses separate lists for:
+
+* Medicines
+* Suppliers
+* Sales
+* Categories
+* Supplier Orders
+
+Each individual record is represented using a Python dictionary containing the required fields.
+
+For example:
+
+Medicines → List of medicine dictionaries
+
+Suppliers → List of supplier dictionaries
+
+Sales → List of sales dictionaries
+
+Categories → List of category dictionaries
+
+Orders → List of supplier order dictionaries
+
+---
+
+# 8. ALGORITHM
+
+Step 1: Start.
+
+Step 2: Display the main menu.
+
+Step 3: Accept the user's menu choice.
+
+Step 4: Open the selected module.
+
+Step 5: Display the operations available in that module.
+
+Step 6: Accept the user's operation choice.
+
+Step 7: Perform the selected operation using lists and dictionaries.
+
+Step 8: Display the result or an appropriate message.
+
+Step 9: Return to the module menu or main menu as required.
+
+Step 10: If the user selects Exit, terminate the program.
+
+Step 11: Stop.
+
+---
+
+9. FLOW OF THE SYSTEM
+
+The basic flow of the Medical Store Management System is:
+
+Start
+  ↓
+Display Main Menu
+  ↓
+Enter User Choice
+  ↓
+Select Module
+  ↓
+┌──────────────────────────────┐
+│ 1. Medicines                 │
+│ 2. Suppliers                 │
+│ 3. Sales                     │
+│ 4. Categories                │
+│ 5. Supplier Orders           │
+│ 6. Exit                      │
+└──────────────────────────────┘
+  ↓
+Select Required Operation
+  ↓
+Perform Operation
+  ↓
+Process / Update Data
+  ↓
+Display Result
+  ↓
+Return to Main Menu
+  ↓
+Check User Choice
+  ↓
+Is Exit Selected?
+  ├── No ─────→ Display Main Menu
+  │
+  └── Yes
+       ↓
+      Stop
+---
+
+# 10. IMPLEMENTATION
+
+The project is implemented as a command-line Python application. A continuous loop maintains the main menu until the user chooses the Exit option.
+
+Each major module has its own menu and operations.
+
+Lists are used to store multiple records, while dictionaries store the fields belonging to an individual record.
+
+For example, a medicine record contains fields such as Medicine ID, Medicine Name, Manufacturer, Category, Price, Quantity, and Expiry Date.
+
+Search operations use loops to examine records and conditional statements to compare the entered value with stored values.
+
+Update operations modify dictionary values, while delete operations remove the matching record from the corresponding list.
+
+---
+
+# 11. TESTING
+
+The system was tested using different inputs and operations to verify that the modules work as expected.
+
+| Test Case | Input/Action              | Expected Result                        |
+| --------- | ------------------------- | -------------------------------------- |
+| 1         | Open Medicines → View     | Displays message if no medicines exist |
+| 2         | Add a medicine            | Medicine is stored successfully        |
+| 3         | Open Suppliers → Search   | Matching supplier is displayed         |
+| 4         | Update supplier           | Supplier details are updated           |
+| 5         | Delete supplier           | Matching supplier is removed           |
+| 6         | Make a sale               | Sale record is stored                  |
+| 7         | Search sale               | Matching sale is displayed             |
+| 8         | Create supplier order     | Order is stored successfully           |
+| 9         | Enter invalid menu option | Invalid choice message is displayed    |
+| 10        | Select Exit               | Program terminates                     |
+
+---
+
+# 12. RESULTS
+
+The Medical Store Management System was successfully implemented as a Python-based menu-driven application.
+
+The system provides separate modules for managing medicines, suppliers, sales, categories, and supplier orders. The required operations can be performed through the respective module menus.
+
+The project successfully demonstrates the use of Python lists, dictionaries, loops, conditional statements, user input, and menu-driven programming to manage medical store records.
+
+The system was tested with different inputs to verify the working of its major operations.
+---
+
+# 13. ADVANTAGES
+
+* Simple and easy-to-use command-line interface.
+* Organizes different medical store operations into separate modules.
+* Uses structured records through Python dictionaries.
+* Provides search, update, and delete functionality where required.
+* Demonstrates practical use of fundamental Python programming concepts.
+* Provides a structured way to manage different types of store information.
+
+---
+
+# 14. LIMITATIONS
+
+* Data is stored only during program execution.
+* The current version does not use a permanent database.
+* The system does not include a graphical user interface.
+* User authentication is not implemented.
+* The current version focuses on basic management operations.
+
+---
+
+# 15. FUTURE ENHANCEMENTS
+
+The project can be further improved by adding:
+
+1. MySQL or SQLite database integration.
+2. A graphical user interface.
+3. User login and authentication.
+4. Automatic medicine quantity updates after sales.
+5. Medicine expiry alerts.
+6. Low-stock notifications.
+7. Billing and invoice generation.
+8. Sales reports and data analysis.
+9. Permanent data storage.
+10. Different access levels for store administrators and staff.
+
+---
+
+# 16. CONCLUSION
+
+The Medical Store Management System demonstrates how fundamental Python programming concepts can be combined to solve a practical record-management problem.
+
+The project provides separate modules for medicines, suppliers, sales, categories, and supplier orders through a menu-driven interface. It allows users to perform different operations on records in a structured manner.
+
+The project also provides a foundation for future improvements such as database integration, graphical interfaces, authentication, automated stock management, expiry notifications, and reporting.
+
+Overall, the project helped in understanding how Python programming concepts can be applied to develop a practical application.
+
+---
+
+# 17. REFERENCES
+
+1. Python programming documentation and standard Python concepts.
+2. Course notes and classroom material related to Python programming.
+3. Python standard library concepts related to lists, dictionaries, loops, and conditional statements.
