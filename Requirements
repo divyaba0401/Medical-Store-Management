@@ -1,0 +1,40 @@
+# PROJECT REQUIREMENTS
+## Medical Store Management System
+
+### 1. Hardware Requirements
+
+- Computer or Laptop
+- Minimum 4 GB RAM recommended
+- Keyboard
+- Display
+
+### 2. Software Requirements
+
+- **Operating System:** Windows, Linux, or macOS
+- **Programming Language:** Python 3.x
+- **Code Editor:** Visual Studio Code or any Python-supported IDE
+- **Interface:** Command-Line Interface (CLI)
+- **Additional Libraries:** None required
+- **Database:** Not required; data is stored temporarily using Python lists and dictionaries.
+
+### 3. Functional Requirements
+
+The system allows users to:
+
+1. Add and view medicine records.
+2. Add, view, search, update, and delete supplier records.
+3. Record, view, and search sales.
+4. Add, view, and delete medicine categories.
+5. Create, view, and search supplier orders.
+6. Navigate between modules using menu options.
+7. Exit the application.
+
+### 4. Non-Functional Requirements
+
+- The interface should be simple and user-friendly.
+- The program should work without an internet connection.
+- Records should be organized in a structured format.
+- The program should display appropriate messages for operations and invalid menu choices.
+- The application should be easy to maintain and extend.
+
+**Note:** The current version stores data in Python lists and dictionaries. Records are not permanently saved after the program closes.
